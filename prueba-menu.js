@@ -5,8 +5,7 @@ const ulMenu = document.getElementById("ul-menu");
     ulMenu.classList.toggle("show");
   });
 
-
-const galeria = document.querySelector('#galeria');
+  const galeria = document.querySelector('#galeria');
 const btnIzquierda = document.querySelector('.flecha.izquierda');
 const btnDerecha = document.querySelector('.flecha.derecha');
 
