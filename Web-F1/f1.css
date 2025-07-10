@@ -151,12 +151,34 @@ li:hover{
 
 .logo-menu{
   text-align: center;
-  margin-top: 230px;
+  margin-top: 150px;
 }
 
 .logo-menu img {
     width: 100%;
     height: auto;
+}
+
+.imagenes-bajo-ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.imagenes-bajo-ul img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#img-menu-ufc{
+  object-fit: contain;
+  width: 110px;
 }
 
 .card-bloque {

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias UFC</title>
-    <link rel="stylesheet" href="ufc.css">
+    <title>Noticias NBA</title>
+    <link rel="stylesheet" href="nba.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -15,16 +15,16 @@
     </header>
     <div class="contenedor">
         <main class="main">
-             <div>
+           <div>
                 <div class="card-bloque">
-                <h2 id="main-top"> - NOTICIAS RECIENTES UFC -</h2>
+                <h2 id="main-top"> - NOTICIAS RECIENTES NBA -</h2>
                 </div>
-                <div id="ufc-news" class="ufc-news-container">Cargando noticias...</div>
+                <div id="nba-news" class="nba-news-container">Cargando noticias...</div>
             </div>
         <a href="" onclick="recargarPagina(event)">
             <button class="btn-actualizar" onclick="scrollTo">ACTUALIZAR NOTICIAS</button>
         </a>
-        <h2>Mejores Momentos - UFC</h2>
+        <h2>Mejores Momentos - NBA </h2>
         <div class="galeria-container">
             <button class="flecha izquierda">&#10094;</button>
 
@@ -77,21 +77,20 @@
                 <a href=""><li><i class="fas fa-calendar-alt"></i> Calendario</li></a>
                 <a href=""><li><i class="fas fa-tasks"></i> Resultados</li></a>
                 <a href="#galeria"><li><i class="fas fa-fire"></i> Highlights</li></a>
-                <a href="Estrellas-Ufc/estrellas-ufc.html"><li><i class="fas fa-star"></i> Estrellas</li></a>
+                <a href="Estrellas-Nba/estrellas-nba.html"><li><i class="fas fa-star"></i> Estrellas</li></a>
                 <a href="../Inicio/Inicio.html"><li><i class="fas fa-arrow-left"></i>Inicio</li></a>
                 <div class="imagenes-bajo-ul">
-                    <a href="../Web-F1/f1.html"><img id="img-menu-f1" src="../imagenes/logo-F1-menu.png" alt="imagen 1"></a>
-                    <a href="../Web-NBA/nba.html"><img id="img-menu-nba" src="../../imagenes/Logo-NBA - menu.png" alt="imagen 2"></a>
+                    <a href="../Web-UFC/ufc.html"><img id="img-menu-ufc" src="../imagenes/Logo-UFC-menu.png" alt="imagen 1"></a>
+                    <a href="../Web-F1/f1.html"><img id="img-menu-f1" src="../imagenes/logo-F1-menu.png" alt="imagen 2"></a>
                 </div>
-                <div class="logo-menu"><img id="img-f1-menu" src="../imagenes/Logo-UFC-menu.png"></div>
+                <div class="logo-menu"><img id="img-f1-menu" src="/imagenes/Logo-NBA - menu.png"></div>
             </ul>   
         </div>  
     </div>
     <footer>
         <p>© 2025 From Pole to Clucth Round 🇦🇷 - Todos los derechos reservados.</p>
     </footer>
-    <script src="../Funcionalidades JS/ufc.js"></script>
-    <script src="api-main-ufc.js"></script>
+    <script src="../Funcionalidades JS/nba.js"></script>
+    <script src="api-main-f1.js"></script>
 </body>
 </html>
-

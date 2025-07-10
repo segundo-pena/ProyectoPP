@@ -15,8 +15,309 @@
     </header>
     <div class="contenedor">
         <main class="main">
-            <h2>Calendario F1 2025</h2>
-            <ul id="lista"></ul>
+            <h2>Calendario Oficial Fórmula 2025</h2>
+            <div class="card-bloque"></div>
+            <div class="leyenda">
+            <div class="item">
+                <div class="cuadro verde"></div>
+                <span>Corrida</span>
+            </div>
+            <div class="item">
+                <div class="cuadro amarillo"></div>
+                <span>Proxima</span>
+            </div>
+            <div class="item">
+                <div class="cuadro blanco"></div>
+                <span>Por correr</span>
+            </div>
+            </div>
+            <div class="calendario">
+                <table class="tabla-calendario">
+                    <thead>
+                        <tr>
+                            <th>FECHA</th>
+                            <th>PAIS</th>
+                            <th>GRAN PREMIO</th>
+                            <th>CIRCUITO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--AUSTRALIA-->
+                        <tr>
+                            <td class="corrida">13/03 - 16/03</td>
+                            <td><img src="../../imagenes/bandera-australia.svg" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Melbourne</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'australia')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-australia" style="display: none;">
+                             <td colspan="4" style="text-align: center;">
+                                <img src="../../imagenes/circuitos/gp-australia.svg" alt="Circuito de Melbourne" style="max-width: 100%; height: 250px;">
+                             </td>   
+                            </tr>
+                        <!--CHINA-->
+                        <tr>
+                            <td class="corrida">21/03 - 23/03</td>
+                            <td><img src="../../imagenes/bandera-china.webp" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Shanghai</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'china')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-china" style="display: none;">
+                            <td colspan="4" style="text-align: center;">
+                                <img src="../../imagenes/circuitos/gp-china.svg" alt="Circuito de Shanghai" style="max-width: 100%; height: 250px;">
+                            </td>
+                            </tr>
+                        <!--JAPON-->
+                        <tr>
+                            <td class="corrida">03/04 - 06/04</td>
+                            <td><img src="../../imagenes/bandera-japon.svg" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Suzuka</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'japon')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-japon" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-japon.svg" alt="Circuito de Suzuka" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--BAHRAIN-->
+                        <tr>
+                            <td class="corrida">11/04 - 13/04</td>
+                            <td><img src="../../imagenes/bandera-bahrein.svg" alt="bandera" class="img-bandera" ></td>
+                            <td class="corrida">GP Bahrain</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'bahrain')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-bahrain" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-bahrein.svg" alt="Circuito de Bahrain" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--ARABIA-->
+                        <tr>
+                            <td class="corrida">18/04 - 20/04</td>
+                            <td><img src="../../imagenes/bandera-arabia.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Jeddah</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'arabia')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-arabia" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-arabia.svg" alt="Circuito de Jeddah" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--MIAMI-->
+                        <tr>
+                            <td class="corrida">02/05 - 04/05</td>
+                            <td><img src="../../imagenes/bandera-usa.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Miami</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'miami')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-miami" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-miami.svg" alt="Circuito de Miami" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--EMILIA R.-->
+                        <tr>
+                            <td class="corrida">16/05 - 18/05</td>
+                            <td><img src="../../imagenes/bandera-italia.svg" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Emilia Romagna</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'EmiliaR')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-EmiliaR" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-emilia.svg" alt="Circuito de Emilia Romagna" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--MONACO-->
+                        <tr>
+                            <td class="corrida">23/05 - 25/05</td>
+                            <td><img src="../../imagenes/bandera-monaco.svg" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Monaco</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'monaco')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-monaco" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-monaco.svg" alt="Circuito de Monaco" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--ESPAÑA-->
+                        <tr>
+                            <td class="corrida">30/05 - 01/06</td>
+                            <td><img src="../../imagenes/bandera-españa.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Catalunya</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'españa')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-españa" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-españa.svg" alt="Circuito de Catalunya" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--CANADA-->
+                        <tr>
+                            <td class="corrida">13/06 - 15/06</td>
+                            <td><img src="../../imagenes/bandera-canada.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Montreal</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'canada')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-canada" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-canada.svg" alt="Circuito de Montreal" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--AUSTRIA-->
+                        <tr>
+                            <td class="corrida">27/06 - 29/06</td>
+                            <td><img src="../../imagenes/bandera-austria.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Austria</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'austria')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-austria" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-austria.svg" alt="Circuito de Austria" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--SILVERSTONE-->
+                        <tr>
+                            <td class="corrida">04/07 - 06/07</td>
+                            <td><img src="../../imagenes/bandera-reinounido.png" alt="bandera" class="img-bandera"></td>
+                            <td class="corrida">GP Silverstone</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'silverstone')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-silverstone" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-silverstone.svg" alt="Circuito de Silverstone" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--SPA-->
+                        <tr>
+                            <td class="por-correr">25/07 - 27/07</td>
+                            <td><img src="../../imagenes/bandera-belgica.svg" alt="bandera" class="img-bandera"></td>
+                            <td class="por-correr">GP Spa-Francorchamps</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'spa')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-spa" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-spa.svg" alt="Circuito Spa-Francorchamps" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--HUNGRIA-->
+                        <tr>
+                            <td>01/08 - 03/08</td>
+                            <td><img src="../../imagenes/bandera-hungria.svg" alt="bandera" class="img-bandera"></td>
+                            <td>GP Hungria</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'hungria')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-hungria" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-hungria.svg" alt="Circuito de Hungria" style="max-width: 100%; height: 250px;">
+                                </td>
+                            </tr>
+                        <!--ALEMANIA-->
+                        <tr>
+                            <td>29/08 - 31/08</td>
+                            <td><img src="../../imagenes/bandera-paises-bajos.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP PAISES BAJOS</td>
+                            <td>
+                                <a href="#" onclick="mostrarImagen(event, 'holanda')">ver imagen</a>
+                            </td>
+                        </tr>
+                            <tr id="fila-imagen-holanda" style="display: none;">
+                                <td colspan="4" style="text-align: center;">
+                                    <img src="../../imagenes/circuitos/gp-holanda.svg" alt="Circuito de los Paises Bajos" style="max-width: 100%; height: 205px;">
+                                </td>
+                            </tr>
+                        <!--MONZA-->
+                        <tr>
+                            <td>05/09 - 07/09</td>
+                            <td><img src="../../imagenes/bandera-italia.svg" alt="bandera" class="img-bandera"></td>
+                            <td>GP Monza</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--BAKU-->
+                        <tr>
+                            <td>19/09 - 21/09</td>
+                            <td><img src="../../imagenes/bandera-azerbayan.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP Baku</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--SINGAPORE-->
+                        <tr>
+                            <td>03/10 - 05/10</td>
+                            <td><img src="../../imagenes/bandera-singapore.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP Singapore</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--USA-->
+                        <tr>
+                            <td>17/10 - 19/10</td>
+                            <td><img src="../../imagenes/bandera-usa.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP Circuito de las Americas</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--MEXICO-->
+                        <tr>
+                            <td>24/10 - 26/10</td>
+                            <td><img src="../../imagenes/bandera-mexico.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP Mexico</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--BRASIL-->
+                        <tr>
+                            <td>07/11 - 09/11</td>
+                            <td><img src="../../imagenes/bandera-brasil.svg" alt="bandera" class="img-bandera"></td>
+                            <td>GP Interlagos</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--LAS VEGAS-->
+                        <tr>
+                            <td>20/11 - 23/11</td>
+                            <td><img src="../../imagenes/bandera-usa.png" alt="bandera" class="img-bandera"></td>
+                            <td>GP Las Vegas</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--QATAR-->
+                        <tr>
+                            <td>28/11 - 30/11</td>
+                            <td><img src="../../imagenes/bandera-qatar.svg" alt="bandera" class="img-bandera"></td>
+                            <td>GP Qatar</td>
+                            <td>ver imagen</td>
+                        </tr>
+                        <!--ABU DHABI-->
+                        <tr>
+                            <td>05/12 - 07-12</td>
+                            <td><img src="../../imagenes/bandera-emiratos.svg" alt="bandera" class="img-bandera"></td>
+                            <td>GP Abu Dhabi</td>
+                            <td>ver imagen</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </main>
         <div class="menu">
             <a href="../f1.html"><button id="boton-menu" class="fas fa-arrow-left"></button></a>

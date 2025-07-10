@@ -29,4 +29,4 @@ btnDerecha.addEventListener('click', () => {
     setTimeout(() => {
       location.reload();
     }, 1000); 
-  }
+  };
