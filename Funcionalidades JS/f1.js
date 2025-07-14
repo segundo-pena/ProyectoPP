@@ -23,10 +23,3 @@ btnDerecha.addEventListener('click', () => {
     behavior: 'smooth'
   });
 });
-
- function recargarPagina(event) {
-   
-    setTimeout(() => {
-      location.reload();
-    }, 1000); 
-  };
