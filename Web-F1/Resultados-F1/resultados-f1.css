@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(18, 18, 18, 1);
+    display: flex;
+    flex-direction: column;      
+}
+
+header{
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 110px;
+    font-size: 28px;
+text-align: center;
+background: linear-gradient(
+to right,
+rgb(230, 0, 0) 0%,
+rgb(18, 18, 18) 15%,
+rgb(18, 18, 18) 85%,
+rgb(0, 0, 230) 100%
+);
+}
+
+h1{
+color: white;
+padding: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 60px;
+font-style: italic;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.card-bloque {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #555;
+}
+
+.card-bloque1 {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #555;
+}
+
+.menu{
+    width: 6%;
+    height:100vh;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    display: inline-block;
+}
+
+#boton-menu {
+  background-color: rgb(230, 0, 0, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid rgb(200, 0, 0);
+}
+
+.main{
+    text-align: justify;
+    width:92%;
+    color: white;
+    overflow-y: auto;
+    padding-top: 130px;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+
+h2{
+  font-size: 40px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: #ccc;
+}
+
+.btn{
+  margin-top: 32px;
+  text-align: center;
+}
+
+button{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(200, 0, 0);
+  background-color: rgb(230, 0, 0, 1);
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+h3{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #ccc;
+  scroll-margin-top: 100px;
+}
+
+.resultados {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid red;
+  background-color: #111;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.resultados2 {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid red;
+  background-color: #111;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+.tabla-campeonato {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-gp{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-campeonato td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.tabla-campeonato th{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.tabla-gp td{
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.tabla-gp th{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+
+.th-posicion{
+  text-align: left;
+  width: 20px;
+}
+
+.th-piloto{
+  text-align: center;
+}
+
+.th-equipo{
+  text-align: center;
+}
+
+.th-puntos2{
+  text-align: center
+}
+
+.th-puntos{
+  text-align: center;
+}
+
+.th-auto{
+  text-align: center;
+}
+
+.th-gp {
+  text-align: left;
+  width: 12%;
+}
+
+
+.th-1, .th-2, .th-3, .th-pole, .th-fp {
+  text-align: left;
+  width: 10%;
+}
+
+
+.td-posicion{
+  text-align: center;
+  width: 20px;
+}
+
+.td-posicion1{
+  text-align: center;
+  width: 20px;
+  background-color: rgb(230, 0, 0);
+}
+
+.td-puntos{
+  text-align:center;
+}
+
+.td-piloto{
+  text-align: center;
+}
+
+.td-auto{
+  text-align: center;
+}
+
+.td-equipo{
+  text-align: center;
+  align-items: center;
+}
+
+.td-1{
+  color: rgb(20, 225, 20);
+}
+
+.td-2{
+  color: rgb(156, 253, 29);
+}
+
+.td-3{
+  color: rgb(249, 234, 31);
+}
+
+.td-pole{
+  color: rgb(255, 75, 10);
+}
+
+.td-fp{
+  color: rgb(202, 6, 202);
+}
+
+#td-final{
+  text-align: center;
+  font-size: 22px;
+}
+
+.tabla-campeonato thead {
+  background-color: black;
+}
+
+.tabla-gp thead {
+  background-color: black;
+}
+
+.img-bandera{
+  width: 40px;
+  height: 25px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.img-escuderia{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.img-escuderia1{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.img-escuderia2{
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.img-escuderia3{
+  width: 85px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.equipo-contenido {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+
+footer{    
+    width: 100%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    background-color: black;
+}
