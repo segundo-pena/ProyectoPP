@@ -65,8 +65,9 @@ font-style: italic;
     position: absolute;
       top: 110px;
       left: 228px;
-      height: 540vh;
-      border-left: 1px solid whitesmoke;
+      width: 10px;
+      height: 3900px;
+      border-left: 1px solid #555;
       z-index: -1;
 }
 
