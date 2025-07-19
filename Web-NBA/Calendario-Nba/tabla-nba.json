@@ -1,0 +1,548 @@
+{
+ "games": [
+    {
+      "date": "10/07/25 - Final",
+      "home_team": "New Orleans Pelicans",
+      "vs": "vs",
+      "visitor_team": "Minnesota Timberwolves",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg"
+    },
+     {
+      "date": "10/07/25 - Final",
+      "home_team": "Cavaliers Cleveland",
+      "vs": "vs",
+      "visitor_team": "Indiana Pacers",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cleveland_Cavaliers_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/sco/1/1b/Indiana_Pacers.svg"
+    },
+     {
+      "date": "10/07/25 - Final",
+      "home_team": "Oklahoma City Thunder",
+      "vs": "vs",
+      "visitor_team": "Brooklyn Nets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/it/5/5d/Oklahoma_City_Thunder.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg"
+    },
+     {
+      "date": "10/07/25 - Final",
+      "home_team": "Orlando Magic",
+      "vs": "vs",
+      "visitor_team": "Sacramento Kings",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/it/b/bd/Orlando_Magic_logo2.svg",
+      "visitor_logo": ""
+    },
+     {
+      "date": "11/07/25 - Final",
+      "home_team": "Memphis Grizzlies",
+      "vs": "vs",
+      "visitor_team": "Celtics Boston",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/sco/f/f1/Memphis_Grizzlies.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg"
+     },
+      {
+      "date": "11/07/25 - Final",
+      "home_team": "Atlanta Hawks",
+      "vs": "vs",
+      "visitor_team": "Miami Heat",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/fr/a/ab/Hawks_d%27Atlanta_2020.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Miami_Heat_wordmark.gif"
+    },
+     {
+      "date": "11/07/25 - Final",
+      "home_team": "New York Knicks",
+      "vs": "vs",
+      "visitor_team": "Detroit Pistons",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/ar/2/25/New_York_Knicks_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_of_the_Detroit_Pistons.svg"
+    },
+     {
+      "date": "11/07/25 - Final",
+      "home_team": "Utah Jazz",
+      "vs": "vs",
+      "visitor_team": "Charlotte Hornets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/7/77/Utah_Jazz_logo_2025.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Charlotte_Hornets_%282014%29.svg"
+    },
+     {
+      "date": "11/07/25 - Final",
+      "home_team": "Chicago Bulls",
+      "vs": "vs",
+      "visitor_team": "Toronto Raptors",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Toronto_Raptors_logo.svg"
+    },
+     {
+      "date": "12/07/25 - Final",
+      "home_team": "Portland Trail Blazzers",
+      "vs": "vs",
+      "visitor_team": "Golden State Warriors",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/2/21/Portland_Trail_Blazers_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg"
+    },
+     {
+      "date": "12/07/25 - Final",
+      "home_team": "Dallas Maverick",
+      "vs": "vs",
+      "visitor_team": "San Antonio Spurs",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/9/97/Dallas_Mavericks_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg"
+    },
+     {
+      "date": "12/07/25 - Final",
+      "home_team": "Los Angeles Lakers",
+      "vs": "vs",
+      "visitor_team": "New Orleans Pelicans",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg"
+    },
+     {
+      "date": "13/07/25 - Final",
+      "home_team": "Phoenix Suns",
+      "vs": "vs",
+      "visitor_team": "Atlanta Hawks",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/d/dc/Phoenix_Suns_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/fr/a/ab/Hawks_d%27Atlanta_2020.svg"
+    },
+     {
+      "date": "13/07/25 - Final",
+      "home_team": "Detroit Pistons",
+      "vs": "vs",
+      "visitor_team": "Houston Rockets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_of_the_Detroit_Pistons.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/Houston_Rockets.svg"
+    },
+     {
+      "date": "13707/25 - Final",
+      "home_team": "Milwaukee Bucks",
+      "vs": "vs",
+      "visitor_team": "Los Angeles Clippers",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/sco/4/4a/Milwaukee_Bucks_logo.svg",
+      "visitor_logo": ""
+    },
+     {
+      "date": "14/07/25 - Final",
+      "home_team": "Boston Celtics",
+      "vs": "vs",
+      "visitor_team": "Miami Heat",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Miami_Heat_wordmark.gif"
+    },
+     {
+      "date": "15/07/25 - Final",
+      "home_team": "Los Angeles Clippers",
+      "vs": "vs",
+      "visitor_team": "Los Angeles Lakers",
+      "home_logo": "",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg"
+    },
+     {
+      "date": "15/07/25 - Final",
+      "home_team": "Minnesota Timberwolves",
+      "vs": "vs",
+      "visitor_team": "Detroit Pistons",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_of_the_Detroit_Pistons.svg"
+    },
+     {
+      "date": "15/07/25 - Final",
+      "home_team": "Philadelpia 76ers",
+      "vs": "vs",
+      "visitor_team": "Washington Wizzards",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Philadelphia-76ers-Logo-1977-1996.png",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Washington_Wizards_logo.svg"
+    },
+     {
+      "date": "15/07/25 - Final",
+      "home_team": "Toronto Raptors",
+      "vs": "vs",
+      "visitor_team": "Denver Nuggets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Toronto_Raptors_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/Denver_Nuggets.svg"
+    },
+     {
+      "date": "15/07/25 - Final",
+      "home_team": "Portland Trail Blazzers",
+      "vs": "vs",
+      "visitor_team": "New Orleans Pelicans",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/2/21/Portland_Trail_Blazers_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg"
+    },
+     {
+      "date": "16/07/25 - Final",
+      "home_team": "Sacramento Kings",
+      "vs": "vs",
+      "visitor_team": "Cleveland Cavaliers",
+      "home_logo": "",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cleveland_Cavaliers_logo.svg"
+    },
+     {
+      "date": "16/07/25 - Final",
+      "home_team": "Phoenix Suns",
+      "vs": "vs",
+      "visitor_team": "Minnesota Timberwolves",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/d/dc/Phoenix_Suns_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg"
+    },
+     {
+      "date": "16/07/25 - Final",
+      "home_team": "Milwaukee Bucks",
+      "vs": "vs",
+      "visitor_team": "Chicago Bulls",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/sco/4/4a/Milwaukee_Bucks_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg"
+    },
+     {
+      "date": "16/07/25 - Final",
+      "home_team": "Orlando Magic",
+      "vs": "vs",
+      "visitor_team": "Brooklyn Nets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/it/b/bd/Orlando_Magic_logo2.svg",
+      "visitor_logo":"https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg"
+    },
+    {
+      "date": "17/07/25 - Final",
+      "home_team": "Indiana Pacers",
+      "vs": "vs",
+      "visitor_team": "New York Knicks",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/sco/1/1b/Indiana_Pacers.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/ar/2/25/New_York_Knicks_logo.svg"
+    },
+    {
+      "date": "17/07/25 - Final",
+      "home_team": "San Antonio Spurs",
+      "vs": "vs",
+      "visitor_team": "Charlotte Hornets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Charlotte_Hornets_%282014%29.svg"
+    },
+    {
+      "date": "17/07/25 - Final",
+      "home_team": "Boston Celtics",
+      "vs": "vs",
+      "visitor_team": "Los Angeles Lakers",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg"
+    },
+    {
+      "date": "18/07/25 - Final",
+      "home_team": "Denver Nuggets",
+      "vs": "vs",
+      "visitor_team": "Los Angeles Clippers",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/7/76/Denver_Nuggets.svg",
+      "visitor_logo": ""
+    },
+    {
+      "date": "18/07/25 - Final",
+      "home_team": "Dallas Maverick",
+      "vs": "vs",
+      "visitor_team": "Orlando Magic",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/en/9/97/Dallas_Mavericks_logo.svg",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/it/b/bd/Orlando_Magic_logo2.svg"
+    },
+    {
+      "date": "18/07/25 - Final",
+      "home_team": "Philadelpia 76ers",
+      "vs": "vs",
+      "visitor_team": "Brooklyn Nets",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Philadelphia-76ers-Logo-1977-1996.png",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg"
+    },
+    {
+      "date": "18/07/25 - Final",
+      "home_team": "Miami Heat",
+      "vs": "vs",
+      "visitor_team": "Milwaukee Bucks",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Miami_Heat_wordmark.gif",
+      "visitor_logo": "https://upload.wikimedia.org/wikipedia/sco/4/4a/Milwaukee_Bucks_logo.svg"
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    },
+    {
+      "date": "",
+      "home_team": "",
+      "vs": "",
+      "visitor_team": "",
+      "home_logo": "",
+      "visitor_logo": ""
+    }
+  ]
+}

@@ -76,7 +76,6 @@ font-style: italic;
     overflow-x: hidden;
 }
 
-
 h2{
   font-size: 40px;
   padding-left: 80px;
@@ -89,7 +88,12 @@ h2{
     border-bottom: 1px solid #555; 
 }
 
-.calendario {
+.card-bloque1 {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #555;
+}
+
+.partidos {
   width: 80%;
   margin: 20px auto;
   border: 1px solid red;
@@ -98,85 +102,73 @@ h2{
   padding-bottom: 20px;
 }
 
-.tabla-calendario {
+.tabla-partidos {
   width: 100%;
   border-collapse: collapse;
 }
 
-.tabla-calendario td {
+.tabla-partidos td {
   padding: 10px 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ccc;
   vertical-align: middle;
   font-size: 18px;
 }
 
-.tabla-calendario th{
+.tabla-partidos th{
     padding: 10px 15px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #ccc;
     vertical-align: middle;
     font-size: 25px;
 }
 
-.tabla-calendario thead {
+.tabla-partidos th:nth-child(1){
+    text-align: left;
+}
+
+.tabla-partidos td:nth-child(1){
+    text-align: left;
+}
+
+.tabla-partidos thead {
   background-color: black;
 }
 
-
-.img-bandera,
-.img-circuito {
-  width: 40px;
-  height: 25px;
-  object-fit: cover;
-}
-
-.corrida{
-    color: rgb(2, 193, 2);
-}
-
-.por-correr{
-    color: yellow;
+#td-temporada1, #td-temporada2, #td-temporada3{
+  text-align: center;
 }
 
 
-.leyenda {
-      display: flex;           
-      gap: 20px;               
-      align-items:center;    
-      flex-wrap:nowrap;  
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      margin: 25px;
-      justify-content: center;
-      width: 95%;
-    }
+img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
 
-    .item {
-      display: flex;
-      align-items:center;
-      gap: 10px;
-    }
+.btn{
+  margin-top: 32px;
+  text-align: center;
+}
 
-    .cuadro {
-      width: 20px;
-      height: 20px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-    .verde {
-      background-color: rgb(2, 193, 2); 
-    }
-    .amarillo {
-      background-color: yellow; 
-    }
-    .blanco {
-      background-color: white;
-      border: 1px solid
-    }
-
-a{
+.btn-tabla{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(200, 0, 0);
+  background-color: rgb(230, 0, 0, 1);
+  cursor: pointer;
+  font-size: 20px;
   color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+
+h3{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #ccc;
+  scroll-margin-top: 100px;
 }
 
 footer{    
@@ -187,3 +179,4 @@ footer{
     padding: 22px;
     background-color: black;
 }
+

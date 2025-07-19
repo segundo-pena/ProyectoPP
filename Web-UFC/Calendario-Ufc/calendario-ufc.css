@@ -90,7 +90,7 @@ h2{
 }
 
 .calendario {
-  width: 80%;
+  width: 60%;
   margin: 20px auto;
   border: 1px solid red;
   background-color: #111;
@@ -99,13 +99,13 @@ h2{
 }
 
 .tabla-calendario {
-  width: 100%;
+  width:100%;
   border-collapse: collapse;
 }
 
 .tabla-calendario td {
   padding: 10px 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ccc;
   vertical-align: middle;
   font-size: 18px;
@@ -113,7 +113,7 @@ h2{
 
 .tabla-calendario th{
     padding: 10px 15px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #ccc;
     vertical-align: middle;
     font-size: 25px;
@@ -123,61 +123,134 @@ h2{
   background-color: black;
 }
 
+.pelea td {
+  padding: 10px;
+  vertical-align:middle
 
-.img-bandera,
-.img-circuito {
-  width: 40px;
-  height: 25px;
-  object-fit: cover;
 }
 
-.corrida{
-    color: rgb(2, 193, 2);
+.peleador {
+  width: 35%;
 }
 
-.por-correr{
-    color: yellow;
+.img-grande {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.img-pequena {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.img-pequena1 {
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
 }
 
 
-.leyenda {
-      display: flex;           
-      gap: 20px;               
-      align-items:center;    
-      flex-wrap:nowrap;  
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      margin: 25px;
-      justify-content: center;
-      width: 95%;
-    }
+.bandera1 {
+  width: 35px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
 
-    .item {
-      display: flex;
-      align-items:center;
-      gap: 10px;
-    }
+.bandera2 {
+    width: 25px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
 
-    .cuadro {
-      width: 20px;
-      height: 20px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-    .verde {
-      background-color: rgb(2, 193, 2); 
-    }
-    .amarillo {
-      background-color: yellow; 
-    }
-    .blanco {
-      background-color: white;
-      border: 1px solid
-    }
+.bandera3 {
+    width: 20px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
 
-a{
+.img-c{
+    width: 25px;
+    vertical-align: middle;
+
+}
+
+.p1{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.p2{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.p3{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.vs-info {
+  width: 20%;
+}
+
+.vs-info .vs1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.vs-info .vs2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.vs-info .vs3 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.vs-info .categoria {
+  font-size: 18px;
+  color: #ccc;
+  padding-top: 10px;
+}
+
+.pelea-texto td {
+  font-size: 18px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+
+.btn{
+  margin-top: 32px;
+  text-align: center;
+}
+
+.btn-tabla{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(200, 0, 0);
+  background-color: rgb(230, 0, 0, 1);
+  cursor: pointer;
+  font-size: 20px;
   color: white;
+  border-radius: 10px;
+  padding: 6px;
 }
+
+
+h3{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #ccc;
+  scroll-margin-top: 100px;
+}
+
 
 footer{    
     width: 100%;
