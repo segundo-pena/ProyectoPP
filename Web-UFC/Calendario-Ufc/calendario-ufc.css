@@ -176,6 +176,19 @@ h2{
 
 }
 
+#lugar{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+#hr{
+  font-size: 16px;
+}
+
+.fa-location-dot{
+  margin-right: 7px;
+}
+
 .p1{
     font-size: 25px;
     margin-top: 5px;
