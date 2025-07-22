@@ -1,4 +1,3 @@
-  
     const apiKey = '8632b75f9d7a4b058279f37cb99a3885'; 
     const query = encodeURIComponent('"formula 1","F1"');
     const sources = 'autosport,bbc-sport,f1,espn,marca,the-sport-bible,fox-sports';
