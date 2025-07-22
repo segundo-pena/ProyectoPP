@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(18, 18, 18, 1);
+    display: flex;
+    flex-direction: column;      
+}
+
+header{
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 110px;
+    font-size: 28px;
+text-align: center;
+background: linear-gradient(
+to right,
+rgb(230, 0, 0) 0%,
+rgb(18, 18, 18) 15%,
+rgb(18, 18, 18) 85%,
+rgb(0, 0, 230) 100%
+);
+}
+
+h1{
+color: white;
+padding: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 60px;
+font-style: italic;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.menu{
+    width: 6%;
+    height:100vh;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    display: inline-block;
+}
+
+#boton-menu {
+  background-color: rgb(230, 0, 0, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid rgb(200, 0, 0);
+}
+
+.main{
+    text-align: justify;
+    width:92%;
+    color: white;
+    overflow-y: auto;
+    padding-top: 130px;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+
+h2{
+  font-size: 40px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: #ccc;
+}
+
+.card-bloque {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #555; 
+}
+
+.card-bloque1 {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #555;
+}
+
+.partidos {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid red;
+  background-color: #111;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.tabla-partidos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-partidos td {
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.tabla-partidos th{
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.tabla-partidos th:nth-child(1){
+    text-align: left;
+}
+
+.tabla-partidos td:nth-child(1){
+    text-align: left;
+}
+
+.tabla-partidos thead {
+  background-color: black;
+}
+
+#td-temporada1, #td-temporada2, #td-temporada3{
+  text-align: center;
+}
+
+
+img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.btn{
+  margin-top: 32px;
+  text-align: center;
+}
+
+.btn-tabla{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(200, 0, 0);
+  background-color: rgb(230, 0, 0, 1);
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+
+h3{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #ccc;
+  scroll-margin-top: 100px;
+}
+
+footer{    
+    width: 100%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    background-color: black;
+}
+
