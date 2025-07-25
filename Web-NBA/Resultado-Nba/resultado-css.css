@@ -576,6 +576,56 @@ h3{
   scroll-margin-top: 100px;
 }
 
+  .galeria-champ {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      height: 500px;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      margin: auto;
+      margin-top: 80px;
+      margin-left: 260px;
+    }
+
+    .galeria-champ img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: none;
+    }
+
+    .galeria-champ img.active {
+      display: block;
+    }
+
+    .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.6);
+      border: none;
+      padding: 15px;
+      font-size: 24px;
+      cursor: pointer;
+      border-radius: 50%;
+      user-select: none;
+    }
+
+    .nav-button:hover {
+      background: rgba(255,255,255,0.8);
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+
 footer{    
     width: 100%;
     height: 10vh;
